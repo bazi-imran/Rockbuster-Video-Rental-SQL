@@ -10,3 +10,8 @@ Rockbuster Stealth LLC is transitioning to an online movie rental platform to co
 - In which countries are customers with a high lifetime value based?
 - Do sales figures vary between geographic regions? 
   
+# Data
+Rockbuster dataset, provided by CareerFoundry, encompasses various details crucial for analysis, such as stores location, movie languagues, staff, inventory, film categories, actors, customers, rental and payment history, and addresses. This dataset was analyzed using PostgreSQL, utilizing a relational database management system.
+
+# Visualizations
+All viualizations for this project were created in Tableau Public and can be found here: [Rockbusters Customer and Product Data](https://public.tableau.com/app/profile/bazilla.imran/viz/RockbustersCustomerandProductData/CustomerBaseWorldWide#1)
