@@ -1,2 +1,10 @@
 # Rockbuster-Video-Rental-SQL
-Portfolio Project: Rockbuster Stealth LLC, a movie rental service, is shifting to streaming. I've prepared a presentation for Rockbuster Stealth's managers, an Excel with SQL queries for technical colleagues, and a data dictionary for analysis clarity.
+Rockbuster Stealth LLC is transitioning to an online video rental platform to compete with Netflix and Amazon, leveraging existing movie licenses to enhance service and expand its customer base.
+# Key Questions
+- In which countries are Rockbuster customers based?
+- Where are the customers with high lifetime value located?
+- Which are the top 10 countries and their top 10 cities that have the most customers? 
+- Who are our top 5 highest-paying loyal customers?
+- What are the most popular genres? 
+- Who are the most popular actors among the customers?
+- What are the highest-selling movie rating among customers?
