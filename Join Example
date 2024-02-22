@@ -31,3 +31,22 @@ LIMIT 10
 GROUP BY COUNTRY,CITY
 ORDER BY customer_count DESC
 LIMIT 10;
+
+# SQL query to find highest lifetime value customers in terms of total revenue. 
+
+SELECT D.country,
+       C.city,
+	   A.first_name,
+	   A.last_name,
+	   SUM(amount) AS Revenue 
+FROM customer A INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+INNER JOIN rental E ON A.customer_id = E.customer_id 
+INNER JOIN payment F ON E.rental_id = F.rental_id
+GROUP BY D.country,
+       C.city,
+	   A.first_name,
+	   A.last_name
+ORDER BY Revenue DESC
+LIMIT 10;
