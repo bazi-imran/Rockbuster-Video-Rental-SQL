@@ -1,5 +1,6 @@
 # Rockbuster-Video-Rental-SQL
-Rockbuster Stealth LLC is transitioning to an online video rental platform to compete with Netflix and Amazon, leveraging existing movie licenses to enhance service and expand its customer base.
+
+Rockbuster Stealth LLC is transitioning to an online movie rental platform to compete with Netflix and Amazon, leveraging existing movie licenses to enhance service and expand its customer base.
 # Key Questions
 - In which countries are Rockbuster customers based?
 - Where are the customers with high lifetime value located?
