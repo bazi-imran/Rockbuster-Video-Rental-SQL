@@ -1,4 +1,4 @@
-# SQL query to find the top 10 countries for Rockbuster in terms of customer numbers. 
+--SQL query to find the top 10 countries for Rockbuster in terms of customer numbers. 
 
 SELECT D.country,
        COUNT(Distinct A.customer_id) AS customer_count,
